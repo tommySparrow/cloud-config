@@ -15,6 +15,7 @@ public class ConfigClientApplication {
     }
 
 
+    //获取git上的配置信息
     @Value("${spring.rabbitmq.port}")
     String foo;
     @RequestMapping(value = "/hi")
